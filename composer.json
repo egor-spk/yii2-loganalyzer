@@ -1,0 +1,27 @@
+{
+    "name": "egorspk/yii2-loganalyzer",
+    "description": "Log analyzer widget for yii2",
+    "keywords": ["yii2", "log", "analyzer", "widget"],
+    "type": "yii2-extension",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "support": {
+        "source": "https://bitbucket.org/egorspk/yii2-loganalyzer/src",
+        "issues": "https://bitbucket.org/egorspk/yii2-loganalyzer/issues"
+    },
+    "authors": [
+        {
+            "name": "SpK",
+            "homepage": "https://bitbucket.org/egorspk"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "spk\\yii2loganalyzer\\": ""
+        }
+    }
+}
