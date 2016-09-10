@@ -2,6 +2,14 @@ Fork [yii-loganalyzer](https://github.com/d4rkr00t/yii-loganalyzer) for yii2
 
 ### Installation ###
 
+
+```
+#!composer
+
+composer require egorspk/yii2-loganalyzer
+```
+
+
 ```
 #!php
 
