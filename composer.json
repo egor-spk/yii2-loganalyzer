@@ -3,7 +3,7 @@
     "description": "Log analyzer widget for yii2",
     "keywords": ["yii2", "log", "analyzer", "widget"],
     "type": "yii2-extension",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minimum-stability": "dev",
     "license": "MIT",
     "support": {

@@ -9,6 +9,9 @@ class LogAnalyzerFileTarget extends FileTarget
 
     public function export()
     {
+		$logPath = dirname($this->logFile);
+		FileHelper::createDirectory($logPath, $this->dirMode, true);
+	
         $text = implode("\n", array_map([$this, 'formatMessage'], $this->messages)) . "\r\n=====\r\n";
         if (($fp = @fopen($this->logFile, 'a')) === false) {
             throw new InvalidConfigException("Unable to append to log file: {$this->logFile}");
