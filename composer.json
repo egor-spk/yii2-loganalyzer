@@ -3,17 +3,17 @@
     "description": "Log analyzer widget for yii2",
     "keywords": ["yii2", "log", "analyzer", "widget"],
     "type": "yii2-extension",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "minimum-stability": "dev",
     "license": "MIT",
     "support": {
-        "source": "https://bitbucket.org/egorspk/yii2-loganalyzer/src",
-        "issues": "https://bitbucket.org/egorspk/yii2-loganalyzer/issues"
+        "source": "https://github.com/egor-spk/yii2-loganalyzer",
+        "issues": "https://github.com/egor-spk/yii2-loganalyzer/issues"
     },
     "authors": [
         {
-            "name": "SpK",
-            "homepage": "https://bitbucket.org/egorspk"
+            "name": "Egor Kuzmin",
+            "homepage": "https://github.com/egor-spk"
         }
     ],
     "require": {
