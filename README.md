@@ -1,36 +1,31 @@
+# Yii2-loganalyzer
+
 Fork [yii-loganalyzer](https://github.com/d4rkr00t/yii-loganalyzer) for yii2
 
-### Installation ###
-
+## Installation
 
 ```
-#!composer
-
 composer require egorspk/yii2-loganalyzer
 ```
 
 
-```
-#!php
-
+```php
 'log' => [
-            'traceLevel' => YII_DEBUG ? 3 : 0,
-            'targets' => [
-                [
-                    'class' => 'spk\yii2loganalyzer\LogAnalyzerFileTarget',
-                    'levels' => ['error', 'warning'],
-                ],
-            ],
+    'traceLevel' => YII_DEBUG ? 3 : 0,
+    'targets' => [
+        [
+            'class' => 'spk\yii2loganalyzer\LogAnalyzerFileTarget',
+            'levels' => ['error', 'warning'],
         ],
+    ],
+],
 ```
 
-### Widget Example ###
+## Widget Example
 
 
-```
-#!php
-
- <?= \spk\yii2loganalyzer\LogAnalyzerWidget::widget([
-        'log_file_path' => Yii::getAlias('@frontend') . '/runtime/logs/app.log',
-    ]) ?>
+```php
+<?= \spk\yii2loganalyzer\LogAnalyzerWidget::widget([
+    'log_file_path' => Yii::getAlias('@frontend') . '/runtime/logs/app.log',
+]) ?>
 ```
